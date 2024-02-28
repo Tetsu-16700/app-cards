@@ -2,32 +2,35 @@ import React from "react";
 
 function Card07() {
   return (
-    <section className="container mx-auto p-10 md:py-20 px-0 md:p-10 md:px-0">
-      <section className="relative px-10 md:p-0 transform duration-500 hover:shadow-2xl cursor-pointer hover:-translate-y-1 ">
-        <img
-          className="xl:max-w-3xl"
-          src="https://images.pexels.com/photos/5990153/pexels-photo-5990153.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1860"
-          alt=""
-        />
-        <div className="content bg-white p-1 pt-4 md:p-6 pb-6 lg:max-w-lg w-full lg:absolute top-28 right-5">
-          <div className="flex justify-between font-bold text-sm">
-            <p>Product Review</p>
-            <p className="text-gray-400">17th March, 2021</p>
+    <>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+      <div className="py-20 bg-white px-2">
+        <div className="max-w-md mx-auto rounded-lg overflow-hidden md:max-w-xl">
+          <div className="md:flex">
+            <div className="w-full p-3">
+              <div className="relative border-dotted h-48 rounded-lg border-dashed border-2 border-blue-700 bg-gray-100 flex justify-center items-center">
+                <div className="absolute">
+                  <div className="flex flex-col items-center">
+                    <i className="fa fa-folder-open fa-4x text-blue-700" />
+                    <span className="block text-gray-400 font-normal">
+                      Attach you files here
+                    </span>
+                  </div>
+                </div>
+                <input
+                  type="file"
+                  className="h-full w-full opacity-0"
+                  name=""
+                />
+              </div>
+            </div>
           </div>
-          <h2 className="text-xl font-semibold mt-4 md:mt-10">
-            Coffee From Heaven
-          </h2>
-          <p className="my-3 text-justify font-medium text-gray-700 leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
-            aperiam nulla cupiditate saepe sed quis veritatis minus rem adipisci
-            aliquid.
-          </p>
-          <button className="mt-2 md:mt-5 p-3 px-5 bg-black text-white font-bold text-sm hover:bg-purple-800">
-            Read More
-          </button>
         </div>
-      </section>
-    </section>
+      </div>
+    </>
   );
 }
 

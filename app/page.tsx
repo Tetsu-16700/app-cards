@@ -8,6 +8,7 @@ import Card04 from "./ui/cards/cards_04";
 import Card05 from "./ui/cards/cards_05";
 import Card06 from "./ui/cards/cards_06";
 import Card07 from "./ui/cards/cards_07";
+import Card08 from "./ui/cards/cards_08";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Card05></Card05>
         <Card06></Card06>
         <Card07></Card07>
+        <Card08></Card08>
       </div>
     </div>
   );
